@@ -1,0 +1,47 @@
+# ===== MATLAB =====
+*.asv
+*.m~
+*.mex*
+*.slxc
+octave-workspace
+
+# ===== Data (NEVER commit patient or raw data) =====
+*.mat
+*.edf
+*.set
+*.fdt
+*.fif
+*.eeg
+*.vhdr
+*.vmrk
+*.nev
+*.ns*
+*.csv
+*.xlsx
+*.xls
+data/
+raw_data/
+subjectData/
+
+# ===== Generated outputs =====
+figures/
+*.fig
+*.jpeg
+*.jpg
+*.png
+*.pdf
+*.svg
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+
+# ===== Allow tracked example/synthetic data =====
+!examples/data/synthetic_*.mat
+!tests/fixtures/**
